@@ -17,7 +17,7 @@ function App() {
             <h1>{element.name}</h1>
             <h2>Manufacturer: {element.manufacturer}</h2>
             <div className="phoneImage">
-              <img src={element.imageFileName} alt="Phone image"></img>
+            <img width={200} src={require(`../public/assets/${element.imageFileName}`)} alt={`${element.name} Pic`} />
             </div>
             <div>
               <h3>Price: {element.price} $</h3>
