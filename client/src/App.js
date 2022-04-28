@@ -25,6 +25,11 @@ function App() {
               <div>
                 <h2>Description:</h2>
                 <p>{element.description}</p>
+                <h3>Tech Features</h3>
+                 <p><b>Color: </b>{element.color}</p>
+                 <p><b>Screen: </b>{element.screen}</p>
+                 <p><b>Processor: </b>{element.processor}</p>
+                 <p><b>RAM: </b>{element.ram}</p>
                 </div>
           </div>
         );
