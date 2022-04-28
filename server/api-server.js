@@ -9,7 +9,7 @@ app.use(cors());
 let phonesFromApi = JSON.parse(fs.readFileSync('./phones.json'));
 
 app.get('/phones', (req, res) => {
-  res.send(phonesFromApi);
+  res.json(phonesFromApi);
 });
 
 app.listen(port, () => {
